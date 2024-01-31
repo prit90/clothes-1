@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="4th.css">
+
+        <link rel="stylesheet" href="swiper-bundle.min.css">
+       
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- ===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" type="x-icon" href="icon.jpg">
+    <script src="jquery-3.7.1.min.js"></script>
+
+    <title>Blvck paris</title>
+</head>
+<body>
+
+    <!-- Navber -->
+    <nav>
+        <div class="nav-bar">
+            <i class='bx bx-menu sidebarOpen' ></i>
+            <span class="logo navLogo"><a href="4th.html"><img src="logo-f.avif" alt=""></a></span>
+
+            <div class="menu">
+                <div class="logo-toggle">
+                    <span class="logo"> <a href="4th.html"><img src="logo-f.avif" alt=""></a></span>
+                    <i class='bx bx-x siderbarClose'></i>
+                </div>
+
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="darkLight-searchBox">
+
+                <div class="dark-light">
+                    <!-- <a href=""><i class='bx bxs-user' ></i></a> -->
+                </div>
+
+                <i data-modal-target="#modal" class='bx bxs-user' style="color: white; font-size: 1.4rem; padding-right: 10px;"></i>
+
+                <div class="modal" id="modal">
+                  <div class="modal-header">
+                    <div class="title">Example Modal</div>
+                    <button data-close-button class="close-button">&times;</button>
+                  </div>
+              
+                  <div class="modal-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quod alias ut illo doloremque eum ipsum obcaecati 
+                    distinctio debitis reiciendis quae quia soluta totam doloribus quos nesciunt necessitatibus, consectetur quisquam accusamus 
+                    ex, dolorum, dicta vel? Nostrum voluptatem totam, molestiae rem at ad autem dolor ex aperiam. Amet assumenda eos architecto,
+                     dolor placeat deserunt voluptatibus tenetur sint officiis perferendis atque! Voluptatem maxime eius eum dolorem dolor
+                      exercitationem quis iusto totam! Repudiandae nobis nesciunt sequi iure! Eligendi, eius libero. Ex, repellat sapiente!
+                  </div>
+              
+                </div>
+              
+                <div id="overlay"></div>
+
+
+                <div class="dark-light">
+                    <i class='bx bxs-cart'></i>
+                </div>
+               
+
+                <div class="searchBox">
+                   <div class="searchToggle">
+                    <i class='bx bx-x cancel'></i>
+                    <i class='bx bx-search search'></i>
+                   </div>
+
+                    <div class="search-field">
+                        <input type="text" placeholder="Search...">
+                        <i class='bx bx-search'></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!-- Home Background  -->
+    <section class="home" id="home">
+      <div class="home-content">
+              <div class="swiper mySwiper">
+                      <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                      <img src="download.webp" alt="" class="home-img home-img-1">
+                                      <img src="mobilesize.webp" alt="" class="home2-img">
+
+
+                                      <div class="home-details">
+                                              <div class="home-text">
+                                                      <h4 class="homeSubtitle">ready-to-wear</h4>
+                                                      <h2 class="homeTitle">All Blvck  Everything</h2>
+                                              </div>
+                                             
+                                              <a href="#"> <button class="button">SHOP MEN</button>  </a>                          
+                                             <a href="#"><button class="button">SHOP WOMEN</button> </a> 
+                                            
+                                      </div>
+                              </div>
+
+                              <div class="swiper-slide">
+                                      <img src="download (1).webp" alt="" class="home-img">
+
+                                      <div class="home-details">
+                                              <div class="home-text">
+                                                      <h4 class="homeSubtitle" >BLVCK HOME</h4>
+                                                      <h2 class="homeTitle">Bring the lifestyle <br> home.</h2>
+                                              </div>
+
+                                              <button class="button"> COLLECTION</button>
+                                      </div>
+                              </div>
+
+                             
+                      </div>
+
+                        <div class="swiper-button-next swiper-navBtn" style="color: aliceblue;"  ></div>
+                      <div class="swiper-button-prev swiper-navBtn" style="color: aliceblue;"></div>
+                      <div class="swiper-pagination"></div>
+              </div>
+      </div>
+</section>
+
+    
+<!-- Product slider -->
+
+    <section class="product"> 
+        <div class="container"> 
+     
+        <button class="pre-btn"><img src="arrow.png" alt=""></button>
+        <button class="nxt-btn"><img src="arrow.png" alt=""></button>
+        <div class="card-head">
+            <h2>
+                Just Dropped
+            </h2>
+        </div>
+        <div class="product-container">
+           <a href="#">
+            <div class="product-card">
+
+                <div class="product-image">
+                    <span class="discount-tag">NEW</span>
+                    <img src="1st.webp" class="product-thumb" id="sli1" alt="">
+                    <button class="card-btn">QUICK ADD</button>
+                </div>
+
+                <div class="product-info">
+                    
+                    <p class="product-short-description"> Blvck Gradient Hoodie </p>
+                    <span class="price">Rs 11,200.00</span>
+                </div>
+            </div>
+           </a>
+
+           <a href="#">
+            <div class="product-card">
+                <div class="product-image">
+                    
+                    <img src="2nd.webp" class="product-thumb"  id="sli2" alt="">
+                    <button class="card-btn">QUICK ADD</button>
+                </div>
+                <div class="product-info">
+                    
+                    <p class="product-short-description"> Blvck Winter Beanie </p>
+                    <span class="price">Rs 5,600.00</span>
+                </div>
+            </div>
+           </a>
+            <a href="#">
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="discount-tag">NEW</span>
+                        <img src="3rd.webp" class="product-thumb" id="sli3" alt="">
+                        <button class="card-btn">QUICK ADD</button>
+                    </div>
+                    <div class="product-info">
+                        
+                        <p class="product-short-description">Blvck X PSG Hoodie </p>
+                        <span class="price">Rs 12,000.00</span>
+                    </div>
+                </div>
+            </a>
+           <a href="#">
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">NEW</span>
+                    <img src="4th.webp" class="product-thumb"  id="sli4" alt="">
+                    <button class="card-btn">QUICK ADD</button>
+                </div>
+                <div class="product-info">
+                    
+                    <p class="product-short-description">Blvck X PSG Scarf </p>
+                    <span class="price">Rs 12,000.00</span>
+                </div>
+            </div>
+           </a>
+            <a href="#">
+                <div class="product-card">
+                    <div class="product-image">
+                       
+                        <img src="5-5s.webp" class="product-thumb"  id="sli5" alt="">
+                        <button class="card-btn">QUICK ADD</button>
+                    </div>
+                    <div class="product-info">
+                        
+                        <p class="product-short-description">Blvck Teddy </p>
+                        <span class="price">Rs 12,000.00</span>
+                    </div>
+                </div>
+            </a>
+           <a href="#">
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">NEW</span>
+                    <img src="9-9s.webp" class="product-thumb" id="sli6" alt="">
+                    <button class="card-btn">QUICK ADD</button>
+                </div>
+                <div class="product-info">
+                    
+                    <p class="product-short-description">Blvck Hoddie</p>
+                    <span class="price">Rs 12,000.00</span><span class="actual-price"></span>
+                </div>
+            </div>
+           </a>
+            <a href="#">
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="discount-tag">NEW</span>
+                        <img src="6-6s.webp" class="product-thumb" id="sli7" alt="">
+                        <button class="card-btn">QUICK ADD</button>
+                    </div>
+                    <div class="product-info">
+                        
+                        <p class="product-short-description">Blvck gogle</p>
+                        <span class="price">Rs 12,000.00</span><span class="actual-price"></span>
+                    </div>
+                </div>
+            </a>
+            <a href="#"><div class="product-card">
+                <div class="product-image">
+                   
+                   <img src="8-8s.webp"class="product-thumb"  id="sli8" alt="">
+                    <button class="card-btn">QUICK ADD</button>
+                </div>
+                <div class="product-info">
+                    
+                    <p class="product-short-description">Blvck cap</p>
+                    <span class="price">Rs 12,000.00</span><span class="actual-price"></span>
+                </div>
+            </div>
+        </a>
+            <a href="#"><div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">NEW</span>
+                    <img src="18-18s.webp" class="product-thumb" id="sli9" alt="">
+                    <button class="card-btn">QUICK ADD</button>
+                </div>
+                <div class="product-info">
+                    
+                    <p class="product-short-description">Blvck T-shirt </p>
+                    <span class="price">Rs 12,000.00</span><span class="actual-price"></span>
+                </div>
+            </div></a>
+
+            <a href="#"><div class="product-card">
+                <div class="product-image">
+                    
+                    <img src="12-12s.webp" class="product-thumb" id="sli10" alt="">
+                    <button class="card-btn">QUICK ADD</button>
+                </div>
+                <div class="product-info">
+                    
+                    <p class="product-short-description">Blvck hoddie </p>
+                    <span class="price">Rs 12,000.00</span>
+                </div>
+            </div>
+        </a>
+            <a href="#"><div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">NEW</span>
+                    <img src="7-7s.webp" class="product-thumb" id="sli11" alt="">
+                    <button class="card-btn">QUICK ADD</button>
+                </div>
+                <div class="product-info">
+                    
+                    <p class="product-short-description">Blvck Book</p>
+                    <span class="price">Rs 12,000.00</span>
+                </div>
+            </div>
+        </a>
+            <a href="#"><div class="product-card">
+                <div class="product-image">
+                    
+                    <img src="10-10s.webp" class="product-thumb"  id="sli12" alt="">
+                    <button class="card-btn">QUICK ADD</button>
+                </div>
+                <div class="product-info">
+                    
+                    <p class="product-short-description">Blvck Long hoddie </p>
+                    <span class="price">Rs 12,000.00</span>
+                </div>
+            </div>
+        </a>
+            <a href="#"><div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">NEW</span>
+                    <img src="11-11s.webp" class="product-thumb" id="sli13" alt="">
+                    <button class="card-btn">QUICK ADD</button>
+                </div>
+                <div class="product-info">
+                    
+                    <p class="product-short-description">Blvck X PSG Hoodie  gary </p>
+                    <span class="price">Rs 12,000.00</span>
+                </div>
+            </div>
+        </a>
+            <a href="#"><div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">NEW</span>
+                    <img src="13-13s.webp" class="product-thumb" id="sli14" alt="">
+                    <button class="card-btn">QUICK ADD</button>
+                </div>
+                <div class="product-info">
+                    
+                    <p class="product-short-description">Blvck Sweaptanas </p>
+                    <span class="price">Rs 12,000.00</span>
+                </div>
+            </div></a>
+            <a href="#"><div class="product-card">
+                <div class="product-image">
+              
+                    <img src="15-15s.webp" class="product-thumb" id="sli15" alt="">
+                    <button class="card-btn">QUICK ADD</button>
+                </div>
+                <div class="product-info">
+                    
+                    <p class="product-short-description">Blvck x keith Haring' Heart </p>
+                    <span class="price">Rs 12,000.00</span>
+                </div>
+            </div></a>
+            <a href="#"><div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">NEW</span>
+                    <img src="14-14s.webp" class="product-thumb"  id="sli16" alt="">
+                    <button class="card-btn">QUICK ADD</button>
+                </div>
+                <div class="product-info">
+                    
+                    <p class="product-short-description">Blvck Classic cargo Pant</p>
+                    <span class="price">Rs 12,000.00</span>
+                </div>
+            </div>
+        </a>
+            <a href="#"><div class="product-card">
+                <div class="product-image">
+                   
+                    <img src="16-16s.webp" class="product-thumb" id="sli17" alt="">
+                    <button class="card-btn">QUICK ADD</button>
+                </div>
+                <div class="product-info">
+                    
+                    <p class="product-short-description"> Blvck x keith Haring' Heart</p>
+                    <span class="price">Rs 12,000.00</span>
+                </div>
+            </div> </a>
+
+           <a href="#"> <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">NEW</span>
+                    <img src="17-17s.webp" class="product-thumb" id="sli18" alt="">
+                    <button class="card-btn">QUICK ADD</button>
+                </div>
+                <div class="product-info">
+                    
+                    <p class="product-short-description">Blvck Sheriling Bag</p>
+                    <span class="price">Rs 12,000.00</span>
+                </div>
+            </div></a>
+        </div>
+
+    </section>
+
+
+<!--  Images Of Many Site  -->
+
+    <section class="many-images">
+        <div class="banner ">
+        
+            <div class="content">
+                
+                <p class="banner-subtitle">UP TO 60% OFF ON SELECTED ITEMS</p>
+                <h1 class="banner-title">Blvck Friday Sale </h1>
+                
+                <div id="home-btn"  ><button > <a href="#" >SHOPE THE SALES</a></button></div>
+           
+            </div>
+        
+        </div>
+        
+    </section>  
+     <section  class="many-images">
+        <div class="banner2">
+        
+            <div class="content2">
+                
+                <p class="banner-subtitle2">SHOP OUR LATEST COLLABORATION</p>
+                <h1 class="banner-title2">Blvck x Keith Haring</h1>
+                
+                <div id="home-btn2"  ><button > <a href="#" >VIEW PRODUCT</a></button></div>
+           
+            </div>
+        
+        </div>
+        
+    </section>  
+    
+      <section  class="many-images"> 
+        <div class="banner3">
+        
+            <div class="content3">
+                
+                <p class="banner-subtitle3">BLVCK HOMES</p>
+                <h1 class="banner-title3">All shades of black available.</h1>
+                
+                <div id="home-btn3"  ><button > <a href="#" >SHOPE THE COLLECTION</a></button></div>
+           
+            </div>
+        
+        </div>
+        
+    </section>  
+  <section  class="many-images">
+        <div class="banner4">
+        
+            <div class="content4">
+                
+
+                <h1 class="banner-title4">Shades of Blvck</h1>
+                
+                <div id="home-btn4"  ><button > <a href="#" >VIEW PRODUCT</a></button></div>
+           
+            </div>
+        
+        </div>
+        
+    </section>  
+    <section  class="many-images">
+        <div class="banner5">
+        
+            <div class="content5">
+                
+
+                <p class="banner-subtitle5">WHTE </p>
+                <h1 class="banner-title5">Welcome to the bright side. </h1>
+                <div id="home-btn5"  ><button style="margin-bottom: 2%;"> <a href="#" >SHOPE MEN</a></button></div>
+                <div id="home-btn5"  ><button > <a href="#" >SHOPE WOMEN</a></button></div>
+            </div>
+        
+        </div>
+        
+    </section>  
+    <section  class="many-images"   > 
+        <div class="banner6">
+        
+            <div class="content6">
+                
+
+                <p class="banner-subtitle6">BLVCK X FORTNITE</p>
+                <h1 class="banner-title6">Limited collab.</h1>
+                <div id="home-btn6"  ><button > <a href="#" >SHOPE THE COLLAB</a></button></div>
+           
+            </div>
+        
+        </div>
+        
+    </section>   
+    
+
+
+<!-- Blog posts -->
+    <div class="blog-title">
+        <h2>
+            Blog-Posts
+        </h2>
+    </div>
+    <div class="blog-list">
+        <a href="#" class="blog-item">
+            <img src="fo-sli4.webp" alt="blog Image">
+           
+            <h3>Blvck has just opened in San Jose, California!</h3>
+           <p>We are proud to announce the US expansion with the opening of our very first mall store in California, San Jose . Blvck Paris opened in late November 2023 at The...</p>
+        </a>
+        <a href="#" class="blog-item">
+            <img src="fo-sli.webp" alt="blog Image">
+
+            <h3>Gifts under $60</h3>
+            <p>Celebrate the festive season with our hand-picked collection of perfect gifts, all under $60! 1. The Blvck Teddy Christmas Keychain The exclusive 'Blvck Evil Teddy Christmas Keyring' is a limited...</p>
+           
+        </a>
+        <a href="#" class="blog-item">
+            <img src="fo-sli2.webp" alt="blog Image">
+
+            <h3>Paris Saint-Germain and Blvck launch a monochrome collaboration</h3>
+           <p>Paris Saint-Germain and Blvck Paris today unveil a unique collaboration that combines sport, fashion and digital artistry. This avant-garde collection celebrates the shared DNA of innovation and audacity that drives...</p>
+        </a>
+    </div>
+
+    <!-- footer  -->
+
+
+    <footer class="footer">
+        <div class="containerf">
+            <div class="f-logo">
+                <img src="gray-logo.avif" alt="">
+            </div>
+            <div class="row">
+                <div class="footer-det">
+                    <h4>COLLECTIONS</h4>
+                    <ul>
+                        <li><a href="#">Men</a></li>
+                        <li><a href="#">Women</a></li>
+                        <li><a href="#">Accessories</a></li>
+                        <li><a href="#">Digital</a></li>
+                        <li><a href="#">Slaes</a></li>
+                        <li><a href="#">whte</a></li>
+                        <li><a href="#">Collab</a></li>
+                    </ul>
+                </div>
+                <div class="footer-det">
+                    <h4>Information</h4>
+                    <ul>
+                        <li><a href="return.html">Return</a></li>
+                        <li><a href="shopping.html">Shipping</a></li>
+                        <li><a href="Terms of service.html">Term</a></li>
+                        <li><a href="FAQ.html">FAQ</a></li>
+                        <li><a href="stores.html">Stores</a></li>
+                    </ul>
+                </div>
+                <div class="footer-det">
+                    <h4>More</h4>
+                    <ul>
+                        <li><a href="#">Blvcklist</a></li>
+                        <li><a href="#">contact</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Afiliate Program</a></li>
+                    </ul>
+                </div>
+               
+            </div>
+            <div class="footer-social">
+                <h4>SOCIAL</h4>
+                <p>Stay connected.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f" style="font-size: 1.4rem;"></i></a>
+                    <a href="#"><i class="fab fa-twitter"     style="font-size: 1.4rem;"></i></a>
+                    <a href="#"><i class="fab fa-instagram"   style="font-size: 1.4rem;"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in" style="font-size: 1.4rem;"></i></a>
+                </div>
+            </div>
+        </div>
+   </footer>
+
+<!-- Swiper JS -->
+<script src="swiper-bundle.min.js"></script>
+<script src="java.js"></script>
+</body>
+</html>
+
+
